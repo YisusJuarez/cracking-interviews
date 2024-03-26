@@ -18,7 +18,3 @@ class Solution:
                 result += word2[i]
         # return value and append missing iterated words
         return result + rest
-
-
-"""test = Solution().mergeAlternately("ab", "pqrs")
-print(f'Expected: apbqrs \nResult {test}')"""
