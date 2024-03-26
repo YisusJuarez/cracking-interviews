@@ -1,4 +1,7 @@
 class Solution:
+    def __init__(self):
+        pass
+
     def mergeAlternately(self, word1: str, word2: str) -> str:
         # String result
         result = ""
@@ -17,5 +20,5 @@ class Solution:
         return result + rest
 
 
-test = Solution().mergeAlternately("ab", "pqrs")
-print(f'Expected: apbqrs \nResult {test}')
+"""test = Solution().mergeAlternately("ab", "pqrs")
+print(f'Expected: apbqrs \nResult {test}')"""
